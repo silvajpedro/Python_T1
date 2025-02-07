@@ -53,3 +53,19 @@ print(nome_sobrenome.split('-'))  # Resultado: ['Fernanda', 'Correa']
 lista_nomes = ["Fernanda", "João", "Amandah", "Felipe", "ciclano", "beltrano", "zumano", "romano", "fulano"]
 # Os elementos da lista serão unidos em uma única string, separados por " - ".
 print(" - ".join(lista_nomes))
+
+materias = {'JBE2023': 'Turma de Back end com a linguagem Java',
+'RFE2022': 'Turma de Front-end com React do ano de 2022',
+'RPFS2024': 'Turma Fullstack com React e Python do ano de 2024'}
+
+# Iterando sobre chaves
+for codigo in materias.values():
+    print(f'Você é da {codigo}')
+
+pergunta = int(input("Digite um valor: "))
+
+lista = []
+for index in range(pergunta):
+    lista.append(index)
+
+print(lista)
