@@ -38,7 +38,7 @@ print("📌 Tipo final:", type(pessoas))  # Saída: <class 'tuple'>
 # Criando um cadastro de cliente utilizando tupla
 cliente = ()
 cliente = list(cliente)  # Convertendo para lista para adicionar dados
-cliente.append("Dianna")
+cliente.append("Lívia")
 cliente.append(9876543210)
 cliente.append("10/02/2025")
 cliente = tuple(cliente)  # Convertendo de volta para tupla

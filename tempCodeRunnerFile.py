@@ -1,1 +1,1 @@
-essoas.upper()
+ nomes_clientes
