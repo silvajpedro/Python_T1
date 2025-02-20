@@ -5,22 +5,22 @@
 print("Bom diaaa, usuário! Seja bem-vindo ao Vai No Coffe!!!")
 
 # Solicitando credenciais do usuário
-login = input("Digite seu e-mail: ")
-senha = int(input("Digite sua senha: "))  # Senha como número inteiro
+# login = input("Digite seu e-mail: ")
+# senha = int(input("Digite sua senha: "))  # Senha como número inteiro
 
-def boas_vindas():
-    """Exibe mensagem de boas-vindas ao usuário logado."""
-    print(f"Bom diaaa, {login}! Seja bem-vindo ao Vai No Coffe!!!")
+# def boas_vindas():
+#     """Exibe mensagem de boas-vindas ao usuário logado."""
+#     print(f"Bom diaaa, {login}! Seja bem-vindo ao Vai No Coffe!!!")
 
-def login_invalido():
-    """Exibe mensagem para login inválido."""
-    print("Tente novamente, suas credenciais são inválidas!!!")
+# def login_invalido():
+#     """Exibe mensagem para login inválido."""
+#     print("Tente novamente, suas credenciais são inválidas!!!")
 
 # Verificação de login
-if login == "joaopedefeijao@gmail.com" and senha == 123:
-    boas_vindas()
-else:
-    login_invalido()
+# if login == "joaopedefeijao@gmail.com" and senha == 123:
+#     boas_vindas()
+# else:
+#     login_invalido()
 
 # ----------- Dicionários em Python -----------
 
@@ -74,3 +74,10 @@ print(nomes_clientes)
 print("\nOs estados dos clientes são:")
 for estado in nomes_clientes:
     print(f"- {estado}")
+
+
+texto = "Python é uma linguagem poderosa e fácil de aprender"
+
+quantidade_caracteres = len(texto)
+
+print("O texto contém", quantidade_caracteres, "caracteres.")
