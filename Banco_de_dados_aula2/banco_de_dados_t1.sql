@@ -7,7 +7,7 @@ USE db_restaurante_t1;
 -- Criando a tabela "pratos"
 CREATE TABLE pratos(
     id INT AUTO_INCREMENT PRIMARY KEY,  -- Coluna "id" será a chave primária e terá incremento automático
-    nome_prato VARCHAR(1) NOT NULL,     -- Coluna "nome_prato" para armazenar o nome do prato (⚠️ ERRO: VARCHAR(1) limita para apenas 1 caractere!)
+    nome_prato VARCHAR(100) NOT NULL,     -- Coluna "nome_prato" para armazenar o nome do prato
     preco INT NOT NULL                  -- Coluna "preco" armazenando o preço do prato (em número inteiro, sem casas decimais)
 );
 
